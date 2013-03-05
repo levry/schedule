@@ -1,0 +1,32 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = Shedule.exe wpm.exe dbadmin.exe importer.exe xmtable.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+Shedule.exe: Schedule\Shedule.dpr
+  $(DCC)
+
+wpm.exe: Wpm2\wpm.dpr
+  $(DCC)
+
+dbadmin.exe: DBAdmin\dbadmin.dpr
+  $(DCC)
+
+importer.exe: Importer2\importer.dpr
+  $(DCC)
+
+xmtable.exe: XMTable\xmtable.dpr
+  $(DCC)
+
+

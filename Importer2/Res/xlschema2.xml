@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xlschema xmlns="http://microsoft.com/xml">
+	<cell name="sem" title="Семестр" row="2" coll="7"/>
+	<cell name="group" title="Название группы" row="4" coll="17"/>
+	<cell name="kname" title="Кафедра группы" row="3" coll="23"/>
+	<cell name="course" title="Семестр обучения" row="7" coll="30"/>
+	<cell name="eduYear" title="Учебный год" row="2" coll="24"/>
+	<cell name="studs" title="Число студентов" row="5" coll="19"/>
+	<cell name="first" title="Начало данных" row="12" coll="1"/>
+	<cell name="sbCode" title="Индекс дисциплины" coll="2"/>
+	<cell name="sbName" title="Название дисциплины" coll="3"/>
+	<cell name="totalHLP" title="Всего ч. по УП" coll="4"/>
+	<cell name="totalAHLP" title="Всего ауд. ч. по УП" coll="5"/>
+	<cell name="Compl" title="Пройдено ранее" coll="6"/>
+	<cell name="lec1" title="Лекции (1п/с)" coll="8"/>
+	<cell name="prac1" title="Практ. з-тия (1п/с)" coll="10"/>
+	<cell name="lab1" title="Лаб. з-тия (1 п/с)" coll="12"/>
+	<cell name="lec2" title="Лекции (2п/с)" coll="13"/>
+	<cell name="prac2" title="Практ. з-тия (2п/с)" coll="15"/>
+	<cell name="lab2" title="Лаб. з-тия (2 п/с)" coll="17"/>
+	<cell name="lection" title="Лекции" coll="18"/>
+	<cell name="practice" title="Практ. з-тия" coll="19"/>
+	<cell name="lab" title="Лаб. з-тия" coll="20"/>
+	<cell name="Kp" title="Курс. проекты" coll="22"/>
+	<cell name="Kr" title="Курс. работы" coll="23"/>
+	<cell name="Rg" title="Расч.-граф. работы" coll="24"/>
+	<cell name="Cr" title="Контроль. работы" coll="25"/>
+	<cell name="Hr" title="Домашние работы" coll="26"/>
+	<cell name="Koll" title="Коллоквиумы" coll="27"/>
+	<cell name="Z" title="Зачет" coll="28"/>
+	<cell name="E" title="Экзамен" coll="29"/>
+	<cell name="skname" title="Кафедра исполнитель" coll="30" last="true"/>
+	<cell name="wp1" title="Кол-во недель (1п/с) (после данных)" row="2" coll="4"/>
+	<cell name="wp2" title="Кол-во недель (2п/с) (после данных)" row="2" coll="22"/>
+</xlschema>

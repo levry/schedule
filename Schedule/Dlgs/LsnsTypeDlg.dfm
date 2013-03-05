@@ -1,0 +1,155 @@
+object frmLsnsTypeDlg: TfrmLsnsTypeDlg
+  Left = 191
+  Top = 81
+  BorderStyle = bsDialog
+  Caption = #1042#1099#1073#1086#1088' '#1079#1072#1085#1103#1090#1080#1103
+  ClientHeight = 368
+  ClientWidth = 250
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignSize = (
+    250
+    368)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblPair: TLabel
+    Left = 0
+    Top = 0
+    Width = 250
+    Height = 20
+    Align = alTop
+    Alignment = taCenter
+    AutoSize = False
+    Color = clInactiveCaption
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clCaptionText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Layout = tlCenter
+  end
+  object LsnsGrid: TAdvStringGrid
+    Left = 0
+    Top = 20
+    Width = 250
+    Height = 310
+    Cursor = crDefault
+    Align = alTop
+    ColCount = 1
+    DefaultColWidth = 197
+    DefaultRowHeight = 39
+    FixedCols = 0
+    RowCount = 3
+    FixedRows = 0
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goDrawFocusSelected, goEditing]
+    ParentFont = False
+    ScrollBars = ssNone
+    TabOrder = 0
+    OnGetDisplText = LsnsGridGetDisplText
+    ActiveCellFont.Charset = DEFAULT_CHARSET
+    ActiveCellFont.Color = clWindowText
+    ActiveCellFont.Height = -11
+    ActiveCellFont.Name = 'Tahoma'
+    ActiveCellFont.Style = [fsBold]
+    OnCellChanging = LsnsGridCellChanging
+    OnCanEditCell = LsnsGridCanEditCell
+    OnGetEditorType = LsnsGridGetEditorType
+    Look = glStandard
+    SearchFooter.FindNextCaption = 'Find next'
+    SearchFooter.FindPrevCaption = 'Find previous'
+    SearchFooter.HighLightCaption = 'Highlight'
+    SearchFooter.HintClose = 'Close'
+    SearchFooter.HintFindNext = 'Find next occurence'
+    SearchFooter.HintFindPrev = 'Find previous occurence'
+    SearchFooter.HintHighlight = 'Highlight occurences'
+    SearchFooter.MatchCaseCaption = 'Match case'
+    PrintSettings.DateFormat = 'dd/mm/yyyy'
+    PrintSettings.Font.Charset = DEFAULT_CHARSET
+    PrintSettings.Font.Color = clWindowText
+    PrintSettings.Font.Height = -11
+    PrintSettings.Font.Name = 'MS Sans Serif'
+    PrintSettings.Font.Style = []
+    PrintSettings.FixedFont.Charset = DEFAULT_CHARSET
+    PrintSettings.FixedFont.Color = clWindowText
+    PrintSettings.FixedFont.Height = -11
+    PrintSettings.FixedFont.Name = 'MS Sans Serif'
+    PrintSettings.FixedFont.Style = []
+    PrintSettings.HeaderFont.Charset = DEFAULT_CHARSET
+    PrintSettings.HeaderFont.Color = clWindowText
+    PrintSettings.HeaderFont.Height = -11
+    PrintSettings.HeaderFont.Name = 'MS Sans Serif'
+    PrintSettings.HeaderFont.Style = []
+    PrintSettings.FooterFont.Charset = DEFAULT_CHARSET
+    PrintSettings.FooterFont.Color = clWindowText
+    PrintSettings.FooterFont.Height = -11
+    PrintSettings.FooterFont.Name = 'MS Sans Serif'
+    PrintSettings.FooterFont.Style = []
+    PrintSettings.PageNumSep = '/'
+    CellNode.TreeColor = clSilver
+    ScrollWidth = 16
+    FixedColWidth = 197
+    FixedRowHeight = 39
+    FixedFont.Charset = DEFAULT_CHARSET
+    FixedFont.Color = clWindowText
+    FixedFont.Height = -11
+    FixedFont.Name = 'Tahoma'
+    FixedFont.Style = [fsBold]
+    FloatFormat = '%.2f'
+    Filter = <>
+    Version = '3.3.0.4'
+  end
+  object btnOk: TButton
+    Left = 85
+    Top = 337
+    Width = 75
+    Height = 25
+    Anchors = [akRight, akBottom]
+    Caption = 'Ok'
+    Default = True
+    Enabled = False
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object btnCancel: TButton
+    Left = 170
+    Top = 337
+    Width = 75
+    Height = 25
+    Anchors = [akRight, akBottom]
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 2
+  end
+  object CtrlEditLink: TFormControlEditLink
+    Tag = 0
+    AutoPopupWidth = False
+    EditStyle = esInplace
+    PopupWidth = 0
+    PopupHeight = 0
+    WantKeyLeftRight = False
+    WantKeyUpDown = False
+    WantKeyHomeEnd = False
+    WantKeyPriorNext = False
+    WantKeyReturn = False
+    WantKeyEscape = False
+    OnSetEditorValue = CtrlEditLinkSetEditorValue
+    Left = 185
+    Top = 60
+  end
+end

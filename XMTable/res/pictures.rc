@@ -1,0 +1,4 @@
+MAIN      BITMAP   main.bmp
+TREES     BITMAP   trees.bmp
+TEXAM     BITMAP   texam.bmp
+EXAMPAGE  BITMAP   exampage.bmp

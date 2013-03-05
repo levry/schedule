@@ -1,0 +1,7 @@
+MAIN	BITMAP	main.bmp
+BTNS	BITMAP	btns.bmp
+LOGO	BITMAP	..\..\Common\Resource\logosch.bmp
+SBROWSE	BITMAP	..\..\Common\Resource\sbrowse.bmp
+PATTERN	BITMAP	..\..\Common\Resource\patterns.bmp
+MORE	BITMAP	..\..\Common\Resource\more.bmp
+TLSNS	BITMAP	..\..\Common\Resource\tlsns.bmp
