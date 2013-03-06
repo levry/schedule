@@ -58,7 +58,6 @@ object frmAboutDlg: TfrmAboutDlg
     Height = 15
     Anchors = [akTop, akRight]
     AutoSize = False
-    Caption = #169' '#1056#1080#1089#1082#1086#1074' '#1051'.'#1042'., 2006'
   end
   object imgLogo: TImage
     Left = 5
