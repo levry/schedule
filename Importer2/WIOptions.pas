@@ -1,7 +1,6 @@
 {
   Настройки WImport
   v0.0.2  (15/07/07)
-  (C) Riskov Leonid, 2006
 }
 unit WIOptions;
 

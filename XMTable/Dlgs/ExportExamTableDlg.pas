@@ -1,7 +1,6 @@
 {
   Экспорт расписания экз/конс в Excel
   v0.0.2  (16.05.06)
-  (C) Leonid Riskov, 2006
 }
 unit ExportExamTableDlg;
 

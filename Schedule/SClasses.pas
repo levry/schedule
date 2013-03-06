@@ -1,7 +1,6 @@
 {
   Объекты расписания
   v0.2.7 (02/09/06)
-  (C) Leonid Riskov, 2006
 }
 
 unit SClasses;

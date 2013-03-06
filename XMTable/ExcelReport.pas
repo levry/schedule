@@ -1,7 +1,6 @@
 {
   Экспорт отчетов в Excel
   v0.0.3  (21.06.06)
-  (C) Leonid Riskov, 2006
 }
 unit ExcelReport;
 

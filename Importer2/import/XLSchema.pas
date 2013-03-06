@@ -1,7 +1,6 @@
 {
   XML Data Binding
   v0.0.1  (15/07/07)
-  (C) Riskov Leonid, 2007
 }
 unit XLSchema;
 

@@ -1,7 +1,6 @@
 {
   Диалог возмож. экз/конс
   v0.0.1  (08.05.06)
-  (C) Leonid Riskov, 2006
 }
 unit ExamListDlg;
 

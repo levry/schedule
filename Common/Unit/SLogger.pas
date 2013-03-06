@@ -1,7 +1,6 @@
 {
   Система логирования
   v0.0.1
-  (C) Riskov Leonid, 2007
 }
 unit SLogger;
 

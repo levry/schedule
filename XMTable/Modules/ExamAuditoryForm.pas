@@ -1,7 +1,6 @@
 {
   ћодуль просмотра зан€тости аудиторий
   v0.0.1  (15/12/06)
-  (C) Leonid Riskov, 2006
 }
 unit ExamAuditoryForm;
 

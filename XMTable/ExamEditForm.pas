@@ -1,7 +1,6 @@
 {
   Редактор события TPlanner
   v0.0.1  (04.05.06)
-  (C) Leonid Riskov, 2006
 }
 unit ExamEditForm;
 

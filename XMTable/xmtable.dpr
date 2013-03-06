@@ -1,6 +1,5 @@
 {
   Проект "Расписание экзаменов"
-  (C) Leonid Riskov, 2006
 }
 program xmtable;
 

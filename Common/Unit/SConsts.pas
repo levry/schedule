@@ -1,7 +1,6 @@
 {
   Константы
   v0.2.2 (03.04.06)
-  (C) Leonid Riskov, 2006
 }
 
 unit SConsts;

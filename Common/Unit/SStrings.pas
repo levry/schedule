@@ -1,7 +1,6 @@
 {
   Строки
   v0.2.3  (06/10/06)
-  (C) Leonid Riskov, 2006
 }
 
 unit SStrings;

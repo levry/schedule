@@ -1,7 +1,6 @@
 {
   Типы, сообщения
   v0.0.2 (02.05.06)
-  (C) Leonid Riskov, 2006
 }
 unit STypes;
 
