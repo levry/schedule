@@ -4,7 +4,7 @@ Schedule
 Subprojects:
 
 #### DBAdmin
-Administraion tool
+Administration tool
   
 #### Help
 Help project (Help and Manual3)
@@ -19,7 +19,7 @@ Sql scripts (create db, stored procedures etc)
 Create timetable
 
 #### Wpm2
-Educational plan manegement
+Educational plan management
 
 #### XMTable
 Create examtable
